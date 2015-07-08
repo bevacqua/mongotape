@@ -1,0 +1,28 @@
+{
+  "name": "mongotape",
+  "version": "1.0.0",
+  "description": "Run integration tests using mongoose and tape",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bevacqua/mongotape.git"
+  },
+  "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bevacqua/mongotape/issues"
+  },
+  "homepage": "https://github.com/bevacqua/mongotape",
+  "scripts": {
+    "test": "node test/*"
+  },
+  "dependencies": {
+    "contra": "1.9.1",
+    "glob": "5.0.13"
+  },
+  "devDependencies": {
+    "proxyquire": "1.6.0",
+    "sinon": "1.15.4",
+    "tape": "4.0.0"
+  }
+}
